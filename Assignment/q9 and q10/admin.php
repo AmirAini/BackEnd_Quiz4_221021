@@ -1,3 +1,5 @@
+<a ></a>
+
 <?php
 include "connect.php";
 
@@ -27,6 +29,8 @@ if ($_POST['login'] == 'Amir') {
     }
 
     }
+} else {
+    echo "press Alt+LeftArrow";
 }
 
 ?>
